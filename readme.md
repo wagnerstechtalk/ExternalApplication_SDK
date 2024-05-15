@@ -87,8 +87,8 @@ Once you've copied over the binaries and assets, safely eject the external drive
 Clone the git repository or download the zip file directly from the github page.
 To clone the repository, follow the steps below.
 	- Open the command prompt on your computer
-	- Copy the command `git clone https://github.com/your_github_username/your_repository_name.git` and paste it into the command prompt, then press enter
-	- Enter this command to your command prompt `cd your_repository_name` to change directory into the cloned repository.
+	- Copy the command `git clone https://github.com/wagnerstechtalk/ExternalApplication_SDK.git` and paste it into the command prompt, then press enter
+	- Enter this command to your command prompt `cd ExternalApplication_SDK` to change directory into the cloned repository.
 
 2. **Build the snake game**
 You can build the snake game with the provided tools.
