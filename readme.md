@@ -32,6 +32,7 @@ You can use the provided project structures as templates. For instance:
 - sdl2-example: A basic snake game using SDL2.
 
 **Project Structure:**
+````
 your_project_name/
 ├── build/                 # CMake build directory
 ├── CMakeLists.txt         # CMake configuration file
@@ -40,6 +41,7 @@ your_project_name/
     ├── your_project_name.elf   # The executable
     ├── your_project_name.png   # Boxart for the executable
     └── your_project_name.xml   # XML containing the name of the application
+````
 
 Inside your_project_name.xml:
 <root>
@@ -99,6 +101,7 @@ You can build the snake game with the provided tools.
 		- Paste this command to the terminal: `./run.sh sdl2-example`
 	- For the first build, it might take a little bit more time.
 	- If the build was succesful you will see this directory structure for the "USB" directory:
+ - ````
 		media
 		└── sdl2-example
 			└── USB/                   # Assets directory. Executables are copied here after build.
@@ -106,6 +109,7 @@ You can build the snake game with the provided tools.
 				├── sdl2-example.elf   # The executable
 				├── sdl2-example.png   # Boxart for the executable
 				└── sdl2-example.xml   # XML containing the name of the application
+   ````
 
 3. **Deploying the game**
 To run the "sdl2-example" on your target machine:
